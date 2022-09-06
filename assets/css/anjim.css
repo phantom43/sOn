@@ -1,0 +1,13 @@
+/* this code created with love by rezky */
+.news h2 {
+	padding-top: 50px;
+}
+.news a {
+	text-decoration: none;
+}
+.news {
+	background-color: grey;
+	width: 250px;
+	height: 50px;
+	padding-top: 20px;
+}

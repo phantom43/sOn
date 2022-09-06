@@ -1,0 +1,147 @@
+/* this css create with love by rezky */
+* {
+	margin: 0;
+	padding: 0;
+}
+nav {
+	background-color: black;
+	height: 50px;
+	width: 1370px;
+	overflow: hidden;
+	position: fixed;
+
+}
+nav h4 {
+	margin-top: 5px;
+	color: white;
+}
+nav li {
+	padding-right: 40px;
+	text-align: right;
+	list-style: none;
+	word-spacing: 50px;
+	z-index: 0;
+}
+nav ul {
+	text-decoration: none;
+	z-index: 1;
+	padding-left: 20px;
+}
+nav a {
+	text-decoration: none;
+	color: white;
+}
+.header {
+	padding-top: 50px;
+	padding-left: 40px;
+	background-image: url('http://localhost/anjay/assets/images/background.jpg');
+	background-repeat: no-repeat;
+	height: 760px;
+}
+.header h1 {
+	padding-top: 50px;
+}
+.intro{
+	z-index: 3;
+	padding-left: 40px;
+	padding-top: 130px;
+	padding-bottom: 130px;
+}
+.intro h4 {
+	padding-left: 25px;
+}
+.footer {
+	bottom: 0;
+	margin-top: 5px;
+	padding-top: 10px;
+	background-color: grey;
+	font-family: sans-serif;
+	height: 110px;
+	overflow: hidden;
+}
+.footer a {
+	margin-top: 10px;
+	text-decoration: none;
+	padding-left: 30px;
+	color: white;
+	font-family: courier new;
+}
+.footer ul li p {
+	padding-left: 30px;
+	color: white;
+}
+.title {
+	padding-top: 50px;
+	padding-left: 40px;
+}
+.card {
+	padding-top: 100px;
+	background-color: whitesmoke;
+	width: 250px;
+	height: 100px;
+	overflow: hidden;
+	margin: 15px;
+	border-radius: 5px;
+	box-shadow: black 5px 5px 0px;
+}
+.card a {
+	background-color: whitesmoke;
+	text-decoration: none;
+	color: black;
+}
+.card img {
+	margin-top: -80px;
+	height: 100px;
+	width: 150px;
+}
+.anjirr {
+	justify-items: center;
+	justify-content: center;
+	padding-top: 100px;
+	width: fit-content;
+	background-color: whitesmoke;
+	width: 700px;
+}
+.anjirr h1 {
+	margin-top: -25px;
+}
+.footerx {
+	text-align: left;
+	bottom: 0;
+	margin-top: 5px;
+	padding-top: 10px;
+	background-color: grey;
+	font-family: sans-serif;
+	height: 110px;
+	overflow: hidden;
+	width: 700px;
+}
+.footerx a {
+	margin-top: 10px;
+	text-decoration: none;
+	padding-left: 30px;
+	color: white;
+	font-family: courier new;
+}
+.footerx ul li p {
+	text-align: left;
+	padding-left: 30px;
+	color: white;
+}
+@media only screen and (min-width:362px) and (max-width:760px) {
+	nav {
+		width: 450px;
+	}
+	nav li {
+		word-spacing: 10px;
+		padding-right: 100px;
+	}
+	.footer p {
+		font-size: 13px;
+
+	}
+	.anjirr {
+		width: 350px;
+	}
+
+}
